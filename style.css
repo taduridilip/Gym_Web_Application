@@ -56,10 +56,10 @@ body{
 .backgroundContainer{
     background: url("https://res.cloudinary.com/dgpzfd6fv/image/upload/v1704089048/young-fitness-man-studio_wrghbf.jpg") no-repeat;
 	height: 100vh;
-    margin-bottom: 40px;
     background-position: center;
     display: flex;
     justify-content: start;
+	margin-bottom:40px ;
     width: 100%;
 	background-size: cover;
     align-items: center;
@@ -107,6 +107,7 @@ body{
 .freeconsultationcard{
 	text-align: center;
     background-color: black;
+	flex-wrap: wrap;
     
 	
 }
@@ -125,6 +126,7 @@ body{
 .freeconsultationcard1{
 	text-align: center;
     background-color: red;
+	flex-wrap: wrap;
 	
 }
 /*start AboutUs*/
@@ -433,6 +435,7 @@ td{
 .meetContainerBg{
 	background-image: url("https://res.cloudinary.com/dgpzfd6fv/image/upload/v1704107019/meet_ok2hoa.jpg");
 	background-size:cover;
+	width: 100%;
 }
 .meetmainHeading{
 	color: #ffffff;
@@ -446,8 +449,6 @@ td{
 	background-color: aliceblue;
 	text-align: center;
 	margin-left: 60px;
-	width: auto;
-
 }
 .meetimage{
 	margin-top: 10px;
