@@ -38,7 +38,7 @@
    <section  id="sectionHome">
 	<div class="backgroundContainer">
     <div class="home-content">
-      <h1 class="home-content-heading ">The Best gym <br/>in Fitness Club</h1>
+      <h1 class="home-content-heading">The Best gym <br/>in Fitness Club</h1>
       <p class="home-content-paragraph">We will develop a programme that will meet<br/> your individual needs. We are committed to<br/> helping you achieve your fitness goals.</p>
 	  <div>
 		<button class="home-content-button">START NOW</button>
@@ -56,10 +56,10 @@
    <section id="about">
    <div class="container mb-4">
 	<div class="row">
-		<div class="col-12 col-md-6">
+		<div class="col-12 order-0 col-md-6">
 			<img src="https://res.cloudinary.com/dgpzfd6fv/image/upload/v1704002651/aboutUs_rgxqug.jpg" class="aboutImage">
 		</div>
-		<div class="d-flex flex-column justify-content-center col-md-6">
+		<div class="d-flex flex-column justify-content-center order-1 col-12 col-lg-6">
 			<h1 class="about-heading">About Us</h1>
 			<p class="about-paragraph">We are a dynamic fitness community dedicated to empowering individuals on their wellness journey. With state-of-the-art equipment, expert trainers, and a supportive atmosphere, we inspire personal growth and achievement. Join us at Fitness Club to experience a fitness revolution where strength meets community, fostering a healthier, happier you.</p>
 			<h1 class="about-heading">Our History</h1>
@@ -192,10 +192,10 @@
 <section class="mb-5" id="classes">
 <div class="container">
 	<div class="row">
-		<div class=" col-12 col-md-6 d-flex flex-column justify-content-center">
+		<div class=" col-12 col-lg-6">
 			<img src="https://res.cloudinary.com/dgpzfd6fv/image/upload/v1703330746/PngItem_2478751_qprawi.png" class="classimage">
 		</div>
-		<div class="col-12 col-md-6">
+		<div class="col-12 col-lg-6">
 			<h8 class="classheading pb-3">Our Classes</h8>
 			<p class="classparagraph">Our gym classes offer a dynamic and inclusive fitness experience tailored to diverse fitness levels and goals. Led by certified instructors, our classes encompass a variety of disciplines, including 
 				strength training, cardiovascular exercises, flexibility sessions, and specialized workouts. Join us to embark on a transformative 
@@ -400,7 +400,7 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="meetCard col-12 col-md-3 mb-4">
+			<div class="meetCard col-12 col-md-4 mb-4">
 				<div>
 					<img src="https://res.cloudinary.com/dgpzfd6fv/image/upload/v1704109591/m1_lnc8ig.jpg" class="meetimage"/>
 					<h1 class="meetHeading">JEFFREY BROWN</h1>
@@ -409,9 +409,8 @@
 						<button class="meetbutton">BIO</button>
 					</div>
 				</div>
-				
 			</div>
-			<div class="meetCard col-12 col-md-3 mb-4">
+			<div class="meetCard col-12 col-md-4 mb-4">
 				<div>
 					<img src="https://res.cloudinary.com/dgpzfd6fv/image/upload/v1704112574/m2_uzyez8.jpg" class="meetimage"/>
 					<h1 class="meetHeading">CHRIS RICHMOND</h1>
@@ -421,7 +420,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="meetCard col-12 col-md-3 mb-4">
+			<div class="meetCard col-12 col-md-4 mb-4">
 				<div>
 					<img src="https://res.cloudinary.com/dgpzfd6fv/image/upload/v1704112574/m4_dnhfs6.jpg" class="meetimage"/>
 					<h1 class="meetHeading">ALEX GREENFIELD</h1>
@@ -439,7 +438,7 @@
 <section class="backgorundcolorbg pb-5">
 	<div class="container">
 		<div class="row">
-			<div class="meetCard col-12 col-md-3 mt-5">
+			<div class="meetCard col-12 col-md-4 mt-5">
 				<div>
 					<img src="https://res.cloudinary.com/dgpzfd6fv/image/upload/v1704112574/m3_nioys4.jpg" class="meetimage"/>
 					<h1 class="meetHeading">JENNIE ROBERTS</h1>
@@ -449,7 +448,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="meetCard col-12 col-md-3 mt-5">
+			<div class="meetCard col-12 col-md-4 mt-5">
 				<div>
 					<img src="https://res.cloudinary.com/dgpzfd6fv/image/upload/v1704109591/m1_lnc8ig.jpg" class="meetimage"/>
 					<h1 class="meetHeading">JEFFREY BROWN</h1>
@@ -459,7 +458,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="meetCard col-12 col-md-3 mt-5">
+			<div class="meetCard col-12 col-md-4 mt-5">
 				<div>
 					<img src="https://res.cloudinary.com/dgpzfd6fv/image/upload/v1704109591/m1_lnc8ig.jpg" class="meetimage"/>
 					<h1 class="meetHeading">JEFFREY BROWN</h1>
@@ -481,22 +480,22 @@
 			<div class="col-12 col-md-6 mt-5">
 				<form id="formEl" class="mt-4">
 					<div>
-					<label class="labelName">Enter Full Name</label>
+					<label for="text" class="labelName">Enter Full Name</label>
 					<input type="text" id="text" class="inputformcontrol mb-4" placeholder="Enter Your Name"/>
 					<p id="nameErrMsg" class="error-message"></p>
 					</div>
 					<div>
-					<label class="labelName">Enter Email</label>
+					<label for="email" class="labelName">Enter Email</label>
 					<input type="email" id="email" class="inputformcontrol mb-4" placeholder="Enter Your Email"/>
 					<p id="emailErrMsg" class="error-message"></p>
 					</div>
 					<div>
-					<label class="labelName">Enter Number</label>
+					<label for="number" class="labelName">Enter Number</label>
 					<input type="number" id="number" class="inputformcontrol mb-4" placeholder="Enter Your Number"/>
 					<p id="numberErrMSg" class="error-message"></p>
 					</div>
 					<div>
-					<label class="labelName">Enter Message</label>
+					<label for="textareaContainer" class="labelName">Enter Message</label>
 					<textarea class="inputformcontrol"  id="textareaContainer" rows="20" placeholder="Enter Textarea"></textarea>
 					</div>
 					<div>
@@ -535,5 +534,6 @@
 	</div>
 </div>
 <!--EndContactUs-->
+<script src="DOMmanipilation.js"></script>
 </body>
 </html>
